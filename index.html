@@ -1,130 +1,202 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0d0618">
-  <meta name="description" content="Tixel — Bot de Discord para tickets. Simple, rápido y poderoso.">
-  <title>Tixel — Discord Ticket Bot</title>
-  <link rel="icon" type="image/jpeg" href="assets/tixel-logo.jpg">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>TIXEL | The Ultimate Ticket Experience</title>
+ <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header class="header">
-    <a href="#" class="logo">
-      <img src="assets/tixel-logo.jpg" alt="Tixel">
-      <span>Tixel</span>
-    </a>
-    <nav class="nav">
-      <a href="#features">Características</a>
-      <a href="#how">Cómo funciona</a>
-      <a href="https://discord.com/oauth2/authorize?client_id=1564869692487761941" class="btn-nav" target="_blank" rel="noopener">Añadir a mi servidor</a>
-    </nav>
-  </header>
+ <div class="bg-glow"></div>
+ <div class="grid-overlay"></div>
 
-  <main>
+ <nav>
+ <a href="#" class="logo-container">
+ <img src="tixel-logo.jpg" alt="Tixel Logo" class="logo-img">
+ <span class="logo-text">TIX<span class="neon-span">EL</span></span>
+ </a>
+ <div class="nav-links">
+ <a href="#features">Características</a>
+ <a href="#why-us">Por qué Tixel</a>
+ <a href="#pricing">Precios</a>
+ <a href="#faq">FAQ</a>
+ <a href="https://discord.com/api/oauth2/authorize?client_id=1234567890&permissions=8&scope=bot" class="btn-nav">Añadir Bot</a>
+ </div>
+ </nav>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="hero-glow"></div>
-      <img src="assets/tixel-logo.jpg" alt="Tixel" class="hero-logo">
-      <h1>Tickets en Discord,<br><span>sin complicaciones.</span></h1>
-      <p class="hero-text">
-        Tixel es un bot de tickets limpio, rápido y fácil de usar.
-        Organiza el soporte de tu servidor en segundos.
-      </p>
-      <div class="hero-actions">
-        <a href="https://discord.com/oauth2/authorize?client_id=1564869692487761941" class="btn btn-primary" target="_blank" rel="noopener">
-          Añadir a mi servidor
-        </a>
-        <a href="#features" class="btn btn-ghost">Ver características</a>
-      </div>
-    </section>
+ <!-- HERO SECTION MASSIVE -->
+ <section class="hero">
+ <div class="hero-content">
+ <img src="tixel-logo.jpg" alt="Tixel Big Logo" class="hero-logo">
+ <h1 class="glitch-text">SOPORTE DE <br><span class="highlight">OTRO NIVEL</span></h1>
+ <p>La infraestructura de tickets más agresiva, rápida y visualmente impactante del mercado. Diseñada para servidores que no aceptan mediocridad.</p>
+ <div class="hero-btns">
+ <a href="#pricing" class="btn-neon btn-purple-large">¡CONSEGUIR TIXEL!</a>
+ <a href="#features" class="btn-neon btn-outline">Explorar Funciones</a>
+ </div>
+ </div>
+ </section>
 
-    <!-- FEATURES -->
-    <section class="section" id="features">
-      <div class="container">
-        <p class="section-tag">CARACTERÍSTICAS</p>
-        <h2>Todo lo que necesitas<br>para tu soporte.</h2>
+ <!-- STATS BAR -->
+ <section class="stats-bar">
+ <div class="stat-item"><span>10K+</span><p>Tickets Creados</p></div>
+ <div class="stat-item"><span>500+</span><p>Servidores Activos</p></div>
+ <div class="stat-item"><span>99.9%</span><p>Uptime Garantizado</p></div>
+ <div class="stat-item"><span>24/7</span><p>Soporte Técnico</p></div>
+ </section>
 
-        <div class="features-grid">
-          <div class="feature-card">
-            <div class="feature-icon">🎫</div>
-            <h3>Tickets privados</h3>
-            <p>Cada ticket se abre en un canal privado solo para el usuario y el staff.</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">⚡</div>
-            <h3>Rápido y ligero</h3>
-            <p>Sin comandos complicados. Un botón y listo. Tu comunidad agradece.</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🔒</div>
-            <h3>Control total</h3>
-            <p>Roles, categorías y permisos configurables a tu manera.</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">📊</div>
-            <h3>Historial limpio</h3>
-            <p>Cierra y archiva tickets cuando termines. Todo queda ordenado.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+ <!-- FEATURES SECTION -->
+ <section id="features" class="features">
+ <div class="section-header">
+ <h2>CARACTERÍSTICAS <span class="highlight">ÉLITE</span></h2>
+ <p>Potencia bruta disfrazada de elegancia neón.</p>
+ </div>
+ <div class="features-grid">
+ <div class="feature-card">
+ <i class="fas fa-bolt"></i>
+ <h3>Velocidad Rayo</h3>
+ <p>Optimización de base de datos para respuestas en microsegundos. Sin esperas, sin errores.</p>
+ </div>
+ <div class="feature-card">
+ <i class="fas fa-shield-halved"></i>
+ <h3>Seguridad Blindada</h3>
+ <p>Encriptación de logs y permisos dinámicos. Tus datos y los de tus clientes están a salvo.</p>
+ </div>
+ <div class="feature-card">
+ <i class="fas fa-wand-magic-sparkles"></i>
+ <h3>Customización Total</h3>
+ <p>Cambia colores, mensajes y embeds para que el bot hable el lenguaje de tu comunidad.</p>
+ </div>
+ <div class="feature-card">
+ <i class="fas fa-chart-line"></i>
+ <h3>Analíticas Avanzadas</h3>
+ <p>Saber cuántos tickets se abren y cuánto tarda tu staff en responder con un solo comando.</p>
+ </div>
+ <div class="feature-card">
+ <i class="fas fa-layer-group"></i>
+ <h3>Categorías Inteligentes</h3>
+ <p>Organiza tus tickets por soporte, reportes o compras automáticamente.</p>
+ </div>
+ <div class="feature-card">
+ <i class="fas fa-headset"></i>
+ <h3>Multi-Staff Support</h3>
+ <p>Gestión de equipos de soporte con asignación automática de tickets.</p>
+ </div>
+ </div>
+ </section>
 
-    <!-- HOW IT WORKS -->
-    <section class="section section-alt" id="how">
-      <div class="container">
-        <p class="section-tag">CÓMO FUNCIONA</p>
-        <h2>En 3 pasos.</h2>
+ <!-- WHY US SECTION -->
+ <section id="why-us" class="why-us">
+ <div class="why-container">
+ <div class="why-text">
+ <h2>¿POR QUÉ <span class="highlight">TIXEL?</span></h2>
+ <p>En un mar de bots genéricos, Tixel emerge como la herramienta definitiva. No somos solo un bot de tickets, somos la imagen de tu profesionalismo.</p>
+ <ul class="why-list">
+ <li><i class="fas fa-check-circle"></i> Interfaz intuitiva y moderna.</li>
+ <li><i class="fas fa-check-circle"></i> Instalación en menos de 1 minuto.</li>
+ <li><i class="fas fa-check-circle"></i> Optimizado para alta carga de usuarios.</li>
+ </ul>
+ </div>
+ <div class="why-visual">
+ <div class="visual-box"></div>
+ </div>
+ </div>
+ </section>
 
-        <div class="steps">
-          <div class="step">
-            <span class="step-num">01</span>
-            <h3>Invita el bot</h3>
-            <p>Añade Tixel a tu servidor de Discord con un solo clic.</p>
-          </div>
-          <div class="step">
-            <span class="step-num">02</span>
-            <h3>Configura</h3>
-            <p>Elige la categoría, roles de staff y el mensaje de bienvenida.</p>
-          </div>
-          <div class="step">
-            <span class="step-num">03</span>
-            <h3>Listo</h3>
-            <p>Tus usuarios ya pueden abrir tickets. Tú solo respondes.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+ <!-- PRICING SECTION - UPDATED TO 2 PLANS -->
+ <section id="pricing" class="pricing">
+ <div class="section-header">
+ <h2>PLANES de <span class="highlight">ACCESO</span></h2>
+ <p>Elige el nivel de potencia que tu servidor necesita.</p>
+ </div>
+ <div class="pricing-grid">
+ <!-- Plan Gratis -->
+ <div class="price-card">
+ <h3>BASIC</h3>
+ <div class="price">$0<span>/mes</span></div>
+ <ul class="price-list">
+ <li>Tickets Ilimitados</li>
+ <li>Soporte Básico</li>
+ <li>1 Categoría de Tickets</li>
+ <li>Logs Estándar</li>
+ <li>Acceso a Comandos Base</li>
+ </ul>
+ <a href="#" class="btn-neon btn-outline">Empezar Gratis</a>
+ </div>
 
-    <!-- CTA -->
-    <section class="section cta" id="invite">
-      <div class="container cta-box">
-        <h2>Lleva el soporte<br>al siguiente nivel.</h2>
-        <p>Invita Tixel ahora y empieza a organizar tus tickets hoy.</p>
-        <a href="https://discord.com/oauth2/authorize?client_id=1564869692487761941" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
-          Añadir a mi servidor
-        </a>
-        <small>Gratis · Sin tarjeta · Configuración en minutos</small>
-      </div>
-    </section>
+ <!-- Plan Premium -->
+ <div class="price-card featured">
+ <div class="badge">SÚPER RECOMENDADO</div>
+ <h3>PREMIUM</h3>
+ <div class="price">$9<span>/mes</span></div>
+ <ul class="price-list">
+ <li><i class="fas fa-star"></i> <strong>Bot Personalizado (Tu Marca)</strong></li>
+ <li><i class="fas fa-star"></i> <strong>Nombre y Logo a tu gusto</strong></li>
+ <li>Categorías Ilimitadas</li>
+ <li>Custom Embeds Avanzados</li>
+ <li>Prioridad de Soporte 24/7</li>
+ <li>Analíticas Pro de Staff</li>
+ </ul>
+ <a href="#" class="btn-neon btn-purple">OBTENER PREMIUM</a>
+ </div>
+ </div>
+ </section>
 
-  </main>
+ <!-- FAQ SECTION -->
+ <section id="faq" class="faq">
+ <div class="section-header">
+ <h2>PREGUNTAS <span class="highlight">FRECUENTES</span></h2>
+ <p>Todo lo que necesitas saber antes de empezar.</p>
+ </div>
+ <div class="faq-container">
+ <div class="faq-item">
+ <h4>¿Qué significa que el bot sea personalizado en Premium?</h4>
+ <p>Tú eliges el nombre del bot, la foto de perfil y los colores. El bot parecerá una herramienta propia de tu servidor, eliminando la marca de Tixel.</p>
+ </div>
+ <div class="faq-item">
+ <h4>¿Es Tixel difícil de configurar?</h4>
+ <p>Para nada. Con nuestro sistema de comandos intuitivos, tendrás todo listo en segundos.</p>
+ </div>
+ <div class="faq-item">
+ <h4>¿Puedo usar Tixel en varios servidores?</h4>
+ <p>Sí, el bot es multi-servidor y mantiene configuraciones independientes para cada uno.</p>
+ </div>
+ <div class="faq-item">
+ <h4>¿Tienen soporte técnico?</h4>
+ <p>Absolutamente. Tenemos un canal dedicado en nuestro Discord para resolver cualquier duda.</p>
+ </div>
+ </div>
+ </section>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="assets/tixel-logo.jpg" alt="">
-        <span>Tixel</span>
-      </div>
-      <p>© 2026 Tixel · Codex Studio Todos los Derechos reservados </p>
-    </div>
-  </footer>
+ <!-- FINAL CTA -->
+ <section class="final-cta">
+ <h2>¿LISTO PARA EL <br><span class="highlight">CAMBIO?</span></h2>
+ <p>No permitas que un mal sistema de soporte aleje a tus usuarios.</p>
+ <a href="#pricing" class="btn-neon btn-purple-large">AÑADIR TIXEL A MI SERVIDOR</a>
+ </section>
+
+ <!-- CONTACT SECTION -->
+ <section class="contact">
+ <h2>SÍGUENOS EN <span class="text-blue">REDES</span></h2>
+ <p>Mantente al día con todas las actualizaciones y novedades de Tixel.</p>
+ <div class="social-grid">
+ <a href="#" class="social-card discord"><i class="fab fa-discord"></i><span>Discord</span></a>
+ <a href="#" class="social-card tiktok"><i class="fab fa-tiktok"></i><span>TikTok</span></a>
+ <a href="#" class="social-card facebook"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+ <a href="#" class="social-card instagram"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+ </div>
+ </section>
+
+ <footer>
+ <div class="footer-content">
+ <img src="tixel-logo.jpg" alt="Logo" class="footer-logo">
+ <span class="footer-brand">TIX<span class="neon-text">EL</span></span>
+ <p class="copyright">Codex Studio - Todos los Derechos Reservados</p>
+ </div>
+ </footer>
 
 </body>
-          </html>
+   </html>
