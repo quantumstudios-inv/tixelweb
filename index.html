@@ -1,189 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TIXEL | The Ultimate Ticket Experience</title>
-    <!-- Fuentes y Iconos -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Vínculo al CSS externo -->
-    <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>TIXEL | The Ultimate Ticket Experience</title>
+ <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="bg-glow"></div>
-    <div class="grid-overlay"></div>
+ <div class="bg-glow"></div>
+ <div class="grid-overlay"></div>
 
-    <nav>
-        <a href="#" class="logo-container">
-            <img src="tixel-logo.jpg" alt="Tixel Logo" class="logo-img">
-            <span class="logo-text">TIX<span class="neon-span">EL</span></span>
-        </a>
-        <div class="nav-links">
-            <a href="#features">Características</a>
-            <a href="#why-us">Por qué Tixel</a>
-            <a href="#pricing">Precios</a>
-            <a href="#faq">FAQ</a>
-            <a href="#" class="btn-nav">Añadir Bot</a>
-        </div>
-    </nav>
+ <nav>
+ <a href="#" class="logo-container">
+ <img src="assets/tixel-logo.jpg" alt="Tixel Logo" class="logo-img">
+ <span class="logo-text">TIX<span class="neon-span">EL</span></span>
+ </a>
+ <div class="nav-links">
+ <a href="#features">Características</a>
+ <a href="#why-us">Por qué Tixel</a>
+ <a href="#pricing">Precios</a>
+ <a href="#" class="btn-nav">Añadir Bot</a>
+ </div>
+ </nav>
 
-    <section class="hero">
-        <div class="hero-content">
-            <img src="tixel-logo.jpg" alt="Tixel Big Logo" class="hero-logo">
-            <h1>SOPORTE DE <br><span class="highlight">OTRO NIVEL</span></h1>
-            <p>La infraestructura de tickets más agresiva, rápida y visualmente impactante del mercado. Diseñada para servidores que no aceptan mediocridad.</p>
-            <div class="hero-btns">
-                <a href="#pricing" class="btn-neon btn-purple-large">¡CONSEGUIR TIXEL!</a>
-                <a href="#features" class="btn-neon btn-outline">Explorar Funciones</a>
-            </div>
-        </div>
-    </section>
+ <header class="hero">
+ <div class="hero-content">
+ <img src="assets/tixel-logo.jpg" alt="Tixel Big Logo" class="hero-logo">
+ <h1 class="hero-title">SOPORTE DE <br><span class="highlight">OTRO NIVEL</span></h1>
+ <p class="hero-desc">La infraestructura de tickets más agresiva, rápida y visualmente impactante del mercado.</p>
+ <div class="hero-btns">
+ <a href="#pricing" class="btn-neon btn-purple-large">¡CONSEGUIR TIXEL!</a>
+ <a href="#features" class="btn-neon btn-outline">Funciones</a>
+ </div>
+ </div>
+ </header>
 
-    <section class="stats-bar">
-        <div class="stat-item"><span>10K+</span><p>Tickets Creados</p></div>
-        <div class="stat-item"><span>500+</span><p>Servidores Activos</p></div>
-        <div class="stat-item"><span>99.9%</span><p>Uptime Garantizado</p></div>
-        <div class="stat-item"><span>24/7</span><p>Soporte Técnico</p></div>
-    </section>
+ <section class="stats-bar">
+ <div class="stat-item">
+ <span class="stat-value">99.9%</span>
+ <p class="stat-label">Uptime Garantizado</p>
+ </div>
+ <div class="stat-item">
+ <span class="stat-value">FreeMium</span>
+ <p class="stat-label">Modelo de Acceso</p>
+ </div>
+ </section>
 
-    <section id="features" class="features">
-        <div class="section-header">
-            <h2>CARACTERÍSTICAS <span class="highlight">ÉLITE</span></h2>
-            <p>Potencia bruta disfrazada de elegancia neón.</p>
-        </div>
-        <div class="features-grid">
-            <div class="feature-card">
-                <i class="fas fa-bolt"></i>
-                <h3>Velocidad Rayo</h3>
-                <p>Optimización de base de datos para respuestas en microsegundos. Sin esperas, sin errores.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-shield-halved"></i>
-                <h3>Seguridad Blindada</h3>
-                <p>Encriptación de logs y permisos dinámicos. Tus datos y los de tus clientes están a salvo.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-wand-magic-sparkles"></i>
-                <h3>Customización Total</h3>
-                <p>Cambia colores, mensajes y embeds para que el bot hable el lenguaje de tu comunidad.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-chart-line"></i>
-                <h3>Analíticas Avanzadas</h3>
-                <p>Saber cuántos tickets se abren y cuánto tarda tu staff en responder con un solo comando.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-layer-group"></i>
-                <h3>Categorías Inteligentes</h3>
-                <p>Organiza tus tickets por soporte, reportes o compras automáticamente.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-headset"></i>
-                <h3>Multi-Staff Support</h3>
-                <p>Gestión de equipos de soporte con asignación automática de tickets.</p>
-            </div>
-        </div>
-    </section>
+ <section id="features" class="features">
+ <div class="section-header">
+ <h2 class="section-title">CARACTERÍSTICAS <span class="highlight">ÉLITE</span></h2>
+ <p>Potencia bruta disfrazada de elegancia neón.</p>
+ </div>
+ <div class="features-grid">
+ <div class="feature-card">
+ <i class="fas fa-bolt"></i>
+ <h3>Velocidad Rayo</h3>
+ <p>Optimización de base de datos para respuestas en microsegundos.</p>
+ </div>
+ <div class="feature-card">
+ <i class="fas fa-shield-halved"></i>
+ <h3>Seguridad Blindada</h3>
+ <p>Encriptación de logs y permisos dinámicos para tu tranquilidad.</p>
+ </div>
+ <div class="feature-card">
+ <i class="fas fa-wand-magic-sparkles"></i>
+ <h3>Customización Total</h3>
+ <p>Cambia colores, mensajes y embeds al gusto de tu servidor.</p>
+ </div>
+ </div>
+ </section>
 
-    <section id="why-us" class="why-us">
-        <div class="why-container">
-            <div class="why-text">
-                <h2>¿POR QUÉ <span class="highlight">TIXEL?</span></h2>
-                <p>En un mar de bots genéricos, Tixel emerge como la herramienta definitiva. No somos solo un bot de tickets, somos la imagen de tu profesionalismo.</p>
-                <ul class="why-list">
-                    <li><i class="fas fa-check-circle"></i> Interfaz intuitiva y moderna.</li>
-                    <li><i class="fas fa-check-circle"></i> Instalación en menos de 1 minuto.</li>
-                    <li><i class="fas fa-check-circle"></i> Optimizado para alta carga de usuarios.</li>
-                </ul>
-            </div>
-            <div class="why-visual">
-                <div class="visual-box"></div>
-            </div>
-        </div>
-    </section>
+ <section id="pricing" class="pricing">
+ <div class="section-header">
+ <h2 class="section-title">PLANES de <span class="highlight">ACCESO</span></h2>
+ </div>
+ <div class="pricing-grid">
+ <div class="price-card">
+ <h3>BASIC</h3>
+ <div class="price">$0<span>/mes</span></div>
+ <ul class="price-list">
+ <li>Tickets Ilimitados</li>
+ <li>Soporte Básico</li>
+ <li>1 Categoría de Tickets</li>
+ </ul>
+ <a href="#" class="btn-neon btn-outline">Empezar Gratis</a>
+ </div>
+ <div class="price-card featured">
+ <div class="badge">RECOMENDADO</div>
+ <h3>PREMIUM</h3>
+ <div class="price">$9<span>/mes</span></div>
+ <ul class="price-list">
+ <li><i class="fas fa-star"></i> Bot Personalizado (Tu Marca)</li>
+ <li><i class="fas fa-star"></i> Nombre y Logo a tu gusto</li>
+ <li>Categorías Ilimitadas</li>
+ <li>Prioridad de Soporte 24/7</li>
+ </ul>
+ <a href="#" class="btn-neon btn-purple-large">OBTENER PREMIUM</a>
+ </div>
+ </div>
+ </section>
 
-    <section id="pricing" class="pricing">
-        <div class="section-header">
-            <h2>PLANES de <span class="highlight">ACCESO</span></h2>
-            <p>Elige el nivel de potencia que tu servidor necesita.</p>
-        </div>
-        <div class="pricing-grid">
-            <div class="price-card">
-                <h3>BASIC</h3>
-                <div class="price">$0<span>/mes</span></div>
-                <ul class="price-list">
-                    <li>Tickets Ilimitados</li>
-                    <li>Soporte Básico</li>
-                    <li>1 Categoría de Tickets</li>
-                    <li>Logs Estándar</li>
-                    <li>Acceso a Comandos Base</li>
-                </ul>
-                <a href="#" class="btn-neon btn-outline">Empezar Gratis</a>
-            </div>
-            <div class="price-card featured">
-                <div class="badge">SÚPER RECOMENDADO</div>
-                <h3>PREMIUM</h3>
-                <div class="price">$9<span>/mes</span></div>
-                <ul class="price-list">
-                    <li><i class="fas fa-star"></i> <strong>Bot Personalizado (Tu Marca)</strong></li>
-                    <li><i class="fas fa-star"></i> <strong>Nombre y Logo a tu gusto</strong></li>
-                    <li>Categorías Ilimitadas</li>
-                    <li>Custom Embeds Avanzados</li>
-                    <li>Prioridad de Soporte 24/7</li>
-                    <li>Analíticas Pro de Staff</li>
-                </ul>
-                <a href="#" class="btn-neon btn-purple-large">OBTENER PREMIUM</a>
-            </div>
-        </div>
-    </section>
+ <section class="final-cta">
+ <h2>¿LISTO PARA EL <br><span class="highlight">CAMBIO?</span></h2>
+ <a href="#pricing" class="btn-neon btn-purple-large">AÑADIR TIXEL A MI SERVIDOR</a>
+ </section>
 
-    <section id="faq" class="faq">
-        <div class="section-header">
-            <h2>PREGUNTAS <span class="highlight">FRECUENTES</span></h2>
-            <p>Todo lo que necesitas saber antes de empezar.</p>
-        </div>
-        <div class="faq-container">
-            <div class="faq-item">
-                <h4>¿Qué significa que el bot sea personalizado en Premium?</h4>
-                <p>Tú eliges el nombre del bot, la foto de perfil y los colores. El bot parecerá una herramienta propia de tu servidor.</p>
-            </div>
-            <div class="faq-item">
-                <h4>¿Es Tixel difícil de configurar?</h4>
-                <p>Para nada. Con nuestro sistema de comandos intuitivos, tendrás todo listo en segundos.</p>
-            </div>
-            <div class="faq-item">
-                <h4>¿Puedo usar Tixel en varios servidores?</h4>
-                <p>Sí, el bot es multi-servidor y mantiene configuraciones independientes para cada uno.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="final-cta">
-        <h2>¿LISTO PARA EL <br><span class="highlight">CAMBIO?</span></h2>
-        <p>No permitas que un mal sistema de soporte aleje a tus usuarios.</p>
-        <a href="#pricing" class="btn-neon btn-purple-large">AÑADIR TIXEL A MI SERVIDOR</a>
-    </section>
-
-    <section class="contact">
-        <h2>SÍGUENOS EN <span class="text-blue">REDES</span></h2>
-        <p>Mantente al día con todas las actualizaciones y novedades de Tixel.</p>
-        <div class="social-grid">
-            <a href="#" class="social-card discord"><i class="fab fa-discord"></i><span>Discord</span></a>
-            <a href="#" class="social-card tiktok"><i class="fab fa-tiktok"></i><span>TikTok</span></a>
-            <a href="#" class="social-card facebook"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
-            <a href="#" class="social-card instagram"><i class="fab fa-instagram"></i><span>Instagram</span></a>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer-content">
-            <img src="tixel-logo.jpg" alt="Logo" class="footer-logo">
-            <span class="footer-brand">TIX<span class="neon-text">EL</span></span>
-            <p class="copyright">Codex Studio - Todos los Derechos Reservados</p>
-        </div>
-    </footer>
+ <footer>
+ <div class="footer-content">
+ <img src="assets/tixel-logo.jpg" alt="Logo" class="footer-logo">
+ <span class="footer-brand">TIX<span class="neon-text">EL</span></span>
+ <p class="copyright">Codex Studio - Todos los Derechos Reservados</p>
+ </div>
+ </footer>
 
 </body>
 </html>
